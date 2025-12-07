@@ -8,8 +8,8 @@ export default function App() {
       {/* <Header /> */}
       {/* <Entry /> */}
 
-      <h1> hello {Firstname}</h1>   
-      {/* This is a sample line to show the use of Firstname variable */}
+      <h1> It is currently about {new Date().getHours() % 12 }</h1> 
+      {/* The {} brackets contain the Javascript code */}
     </>
   )
 }
