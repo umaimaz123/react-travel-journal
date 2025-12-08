@@ -2,6 +2,7 @@ export default function Contact(props) {
   // this is how props are passed to components
   return (
     <article className="contact-card">
+         <h1>{ props.num }</h1> 
         <img 
             src={ props.img }
             alt={ props.imgAlt }

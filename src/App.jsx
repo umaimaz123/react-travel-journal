@@ -16,6 +16,7 @@ export default function App() {
           name="Mr. Whiskerson"
           contact="(212) 555-1234"
           email="mr.whiskaz@catnap.meow"
+          num={1} // adding non-string prop example
         />
         <Contact
           img="./images/fluffykins.png"
@@ -23,6 +24,7 @@ export default function App() {
           name="Fluffykins"
           contact="(212) 555-2345"
           email="fluff@me.com"
+          num={2}
         />
         <Contact 
           img="./images/felix.png"
@@ -30,6 +32,7 @@ export default function App() {
           name="Felix"
           contact="(212) 555-4567"
           email="thecat@hotmail.com"
+          num={3}
         />
         <Contact 
           img="./images/pumpkin.png"
@@ -37,6 +40,7 @@ export default function App() {
           name="Pumpkin"
           contact="(0800) CAT KING"
           email="pumpkin@scrimba.com"
+          num={4}
         />
       </div>
     </>
