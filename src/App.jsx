@@ -1,6 +1,7 @@
 import Header from "./components/Header.jsx";
 import Entry from "./components/Entry.jsx";
 import Contact from "./components/Contact.jsx";
+import mrWhiskerson from "../images/mr-whiskerson.png"; // Loading image asset so that bundler can process it
 
 export default function App() {
   return (
@@ -11,7 +12,7 @@ export default function App() {
       {/* Practice of passing data to Contacts */}
       <div className="contacts"> 
         <Contact 
-          img="./images/mr-whiskerson.png"
+          img={mrWhiskerson} // using imported image asset
           imgAlt="Photo of Mr. Whiskerson"
           name="Mr. Whiskerson"
           contact="(212) 555-1234"
