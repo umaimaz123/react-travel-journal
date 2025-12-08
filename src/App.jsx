@@ -1,16 +1,16 @@
 import Header from "./components/Header.jsx";
 import Entry from "./components/Entry.jsx";
-import Contact from "./components/Contact.jsx";
-import mrWhiskerson from "../images/mr-whiskerson.png"; // Loading image asset so that bundler can process it
+// import Contact from "./components/Contact.jsx";
+// import mrWhiskerson from "../images/mr-whiskerson.png"; // Loading image asset so that bundler can process it
 
 export default function App() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <Entry /> */}
+      <Header />
+      <Entry />
 
       {/* Practice of passing data to Contacts */}
-      <div className="contacts"> 
+      {/* <div className="contacts"> 
         <Contact 
           img={mrWhiskerson} // using imported image asset
           imgAlt="Photo of Mr. Whiskerson"
@@ -43,7 +43,7 @@ export default function App() {
           email="pumpkin@scrimba.com"
           num={4}
         />
-      </div>
+      </div> */}
     </>
   )
 }
