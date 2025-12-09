@@ -16,7 +16,7 @@ export default function App() {
         // that is why it is important to always add a key prop when rendering lists in React.
         // the work "key" is a reserved word in React, so we cannot use it as a prop name in our components.
         key={entry.id}
-        entry={entry}
+        {...entry}
       />
     )
   })
